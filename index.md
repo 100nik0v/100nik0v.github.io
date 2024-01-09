@@ -1,1 +1,0 @@
-# 100nik0v.github.io
