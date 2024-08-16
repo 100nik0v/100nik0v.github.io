@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+name: "My new website"
+output_dir: 'docs'
+output:
+  html_document:
+    theme: cosmo
+    highlight: zenburn
+    toc: true
+    toc_depth: 2
+    toc_float:
+=======
+name: "My new website"
+output_dir: 'docs'
+output:
+  html_document:
+    theme: cosmo
+    highlight: zenburn
+    toc: true
+    toc_depth: 2
+    toc_float:
+>>>>>>> 44853e010783c7d2ac4db7406defacdd58f2c61f
+      collapsed: false
