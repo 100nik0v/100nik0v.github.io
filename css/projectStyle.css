@@ -1,0 +1,46 @@
+h1 {
+  color: black;
+  padding-left:5%;
+}
+#parent {
+  padding: 3%;
+  margin: 1%;
+  background-color: #f0fafa;
+  display: flex;
+  border-style: solid;
+  border-color: #d8f2f2;
+  border-width: 2%;
+}
+#normalText {
+  font-size: 115%;
+}
+#narrow {
+  padding: 1%;
+  width: 25%;
+}
+#wide {
+  padding: 1%;
+  flex: 1;
+}
+.outer {
+    width: 600px;
+    height: 200px;
+    padding-right: 10%;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.outer div {
+    width: 24.5%;
+    float: none;
+    height: 90%;
+    margin: 0 0.25%;
+    display: inline-block;
+    zoom: 1;
+}
+#img {
+  width:100%;
+}
