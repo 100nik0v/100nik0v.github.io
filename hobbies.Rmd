@@ -1,0 +1,50 @@
+---
+author: "Alexander"
+output: 
+  html_document:
+    css: "css/hobbieStyle.css"
+    toc: FALSE
+---
+
+::::: {id="grid"}
+
+:::: {id="cell1"}
+
+::: {id="cell1-1"}
+Info
+:::
+
+::: {id="cell1-2"}
+<button class="button1">Expand</button>
+:::
+
+::: {id="cell1-3"}
+## **Chess**
+:::
+
+::::
+
+:::: {id="cell2"}
+## **Taekwondo**
+<button class="button">Expand</button>
+::::
+
+:::: {id="cell3"}
+## **Stargazing**
+<button class="button">Expand</button>
+::::
+
+:::: {id="cell4"}
+## **Coding**
+<button class="button">Expand</button>
+::::
+
+:::::
+
+<script>
+$(document).ready(function (){
+   $('#stretch').click(function (){
+       $(this).css('width',"100%");
+   });
+});
+</script>
